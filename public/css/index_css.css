@@ -1,0 +1,29 @@
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .elements {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .element {
+    max-width: 250px;
+    margin: 0 20px;
+  }
+  
+  .element a {
+    background-color: #0F53B4;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .element a:hover {
+    background-color: #00A4BC;
+  }
+  

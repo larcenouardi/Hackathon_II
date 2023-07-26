@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  
+    /* backdrop-filter: blur(30px); */
+}
+  
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    color: #11c308;
+    background-image: url(Img/budget.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+
+
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    
+
+  }
+  
+  label {
+    font-weight: bold;
+    color: black;
+
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #0fa807;
+    border-radius: 3px;
+    background-color: rgb(237, 244, 214);
+
+  }
+  
+  button {
+    padding: 0.5rem;
+    background-color: #06760f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8bf452;
+   
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+
+#t_text {
+    display: inline-block;
+    margin-left: 100%;
+
+}
+
+  tfoot td {
+    font-weight: bold;
+    text-align: right;
+  }
+
+ .back{
+width: 30px;
+height: 30px;
+display: inline-block;
+position: absolute;
+bottom: 2%;
+left: 50%;
+
+ }
