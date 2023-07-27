@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   
-    /* backdrop-filter: blur(30px); */
+   background-color: #669dc7;
 }
   
 
@@ -10,7 +10,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 1rem;
-    color: #11c308;
+    color: #051e31;
     background-image: url(Img/budget.jpg);
     background-position:center;
     background-repeat: no-repeat;
@@ -99,3 +99,43 @@ bottom: 2%;
 left: 50%;
 
  }
+
+ .BackR {
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.BackR a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.BackR a:hover {
+  background-color: #45a049;
+}
+
+#error {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p a {
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions button {
+  margin-left: 10px;
+}
+
